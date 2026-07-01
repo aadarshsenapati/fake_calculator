@@ -21,7 +21,7 @@ export default function App() {
     cardholder: "",
   });
 
-  const handleClick = (e) => {
+  const handleAddClick = (e) => {
     e.preventDefault();
 
     setResult(null);
