@@ -21,7 +21,7 @@ export default function App() {
     cardholder: "",
   });
 
-  const handleAddClick = (e) => {
+  const handleClick = (e) => {
     e.preventDefault();
 
     setResult(null);
@@ -190,7 +190,7 @@ export default function App() {
           </div>
 
           <button type="submit" disabled={loading}>
-            {loading ? "Calculating…" : "Add · Rs. 50"}
+            {loading ? "Calculating…" : "Add"}
           </button>
         </form>
 
